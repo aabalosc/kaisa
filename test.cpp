@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-  ifstream fin("dict.txt");
+  ifstream fin("dictionary.txt");
   string word;
   set<string> dictset;
   while(fin>>word)
